@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Botones de Enlaces</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #f4f9ff;
+        }
+
+        h1{
+            color: #0b3d91;
+        }
+
+        .botones{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+            max-width: 500px;
+            margin: auto;
+        }
+
+        .boton-link{
+            text-decoration: none;
+            background-color: #0b3d91;
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        .boton-link:hover{
+            background-color: #1456c0;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Menú Principal</h1>
+
+    <div class="botones">
+
+        <a class="boton-link" 
+           href="https://profesorsamuelorte.wixsite.com/misitio/cienciasnaturales"
+           target="_blank">
+            🌿 Ciencias Naturales
+        </a>
+
+        <a class="boton-link" 
+           href="https://profesorsamuelorte.wixsite.com/misitio/consejeria"
+           target="_blank">
+            🤝 Consejería
+        </a>
+
+        <a class="boton-link" 
+           href="https://profesorsamuelorte.wixsite.com/misitio/profesores"
+           target="_blank">
+            👨‍🏫 Profesores
+        </a>
+
+        <a class="boton-link" 
+           href="https://profesorsamuelorte.wixsite.com/misitio/notascontrol"
+           target="_blank">
+            📊 Tablas de Notas
+        </a>
+
+    </div>
+
+</body>
+</html>
